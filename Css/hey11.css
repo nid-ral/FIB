@@ -1,0 +1,181 @@
+#first{
+        margin-top: -20px;
+}
+#signout{
+  display: none;
+}
+.nav{
+        background-color: black;
+}
+.container-fluid{
+        background-color: black;
+}
+#f1para{
+        display: none;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 220px;
+        margin-top: -450px;
+        height: 250px;
+        background-color: lightblue;
+        opacity: 0.7;
+        position: absolute;
+        border:3px solid blue;
+        border-radius: 50%;
+}
+#f1:hover #f1para{
+        display: block;
+}
+#f2para{
+        display: none;
+        width: 300px;
+        font-size: 20px;
+        margin-left: 420px;
+        margin-top: -360px;
+        height: 300px;
+        background-color: lightblue;
+        opacity: 0.7;
+        position: absolute;
+        border:3px solid blue;
+        border-radius: 50%;
+}
+#f2:hover #f2para{
+        display: block;
+}
+#f3para{
+        display: none;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 820px;
+        margin-top: -440px;
+        height: 250px;
+        background-color: lightblue;
+        opacity: 0.7;
+        position: absolute;
+        border:3px solid blue;
+        border-radius: 50%;
+}
+#f3:hover #f3para{
+        display: block;
+}
+#f4para{
+        display: none;
+        width: 250px;
+        font-size: 20px;
+        margin-left: 1070px;
+        margin-top: -240px;
+        height: 250px;
+        background-color: lightblue;
+        opacity: 0.7;
+        position: absolute;
+        border:3px solid blue;
+        border-radius: 50%;
+}
+#f4:hover #f4para{
+        display: block;
+}
+@keyframes circlea{
+        from{
+                width: 50px;
+                height: 50px;
+        }
+        to{
+                width: 70px;
+                height: 70px;
+        }
+    }
+    @keyframes circleb{
+        from{
+                width: 30px;
+                height: 30px;
+        }
+        to{
+                width: 50px;
+                height: 50px;
+        }
+    }
+    @keyframes circlec{
+        from{
+                width: 70px;
+                height: 70px;
+        }
+        to{
+                width: 90px;
+                height: 90px;
+        }
+    }
+    @keyframes circle{
+        from{
+              width: 10px;
+              height: 10px;
+        }
+        to{
+                width: 30px;
+                height: 30px;
+        }
+    }
+#witnessed{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-color: black;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  color: white;
+}
+footer{
+  background-color: lightblue;
+  width: 100%;
+  position: absolute;
+  height: 300px;
+  margin-top: 650px;
+}

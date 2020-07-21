@@ -1,0 +1,59 @@
+body{
+        background-image: url("backk.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 1px;
+        color: #ffffff;
+        z-index:10;
+ }
+#start{
+background-color: white;
+width: 100%;
+height: 200px;
+}
+#logo{
+        margin-left: 570px;
+        margin-top: 20px;
+}
+a{
+        color: white;
+        font-family: 'Helvetica Neue',Helvetica,Arial;
+}
+a:hover {
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+}
+#heading1{
+        width: 400px;
+        opacity: 0.8;
+        margin-left: 350px;
+        margin-top: 30px;
+        height: 80px;
+        background-color: white;
+        border:3px solid grey;
+        border-bottom-color: white;
+}
+
+#heading2{
+        width: 400px;
+        opacity: 0.8;
+        margin-left: 480px;
+        margin-top: 30px;
+        height: 80px;
+        background-color: white;
+        border:3px solid grey;
+        border-bottom-color: white;
+}
+#blog{
+        background-color: black; 
+        opacity: 0.8;
+        width: 550px;
+        margin-top: 130px;
+        height: 300px;
+        /*background-color: white;*/
+        border:3px solid grey;
+        position: absolute;
+
+}
